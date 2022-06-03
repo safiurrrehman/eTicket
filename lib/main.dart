@@ -25,13 +25,13 @@ class MyApp extends StatelessWidget {
     return MultiProvider(
       providers: [
         ChangeNotifierProvider(create: (_) => UserModel(email: "", userType: '')
-        ),
+        ),//ChangeNotifierProvider
         Provider<AuthenticationService>(
           create: (_) => AuthenticationService(FirebaseAuth.instance),
-        ),
+        ),//Provider
         StreamProvider(
           create: (context) => context.read<AuthenticationService>().authStateChanges, initialData: null,
-        )
+        )//StreamProvider
       ],
       child: MaterialApp(
         title: 'ETicket App',
