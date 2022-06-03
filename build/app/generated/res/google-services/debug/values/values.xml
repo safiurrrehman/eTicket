@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="default_web_client_id" translatable="false">1056972024160-o1iuvqnu8gprropu4qkkc0chpqo8p6pv.apps.googleusercontent.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">1056972024160</string>
+    <string name="google_api_key" translatable="false">AIzaSyA6ftY_SKhKQNg8jvI3coRuYoa0XXyDbws</string>
+    <string name="google_app_id" translatable="false">1:1056972024160:android:5ef86ab19b12d0eb105605</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyA6ftY_SKhKQNg8jvI3coRuYoa0XXyDbws</string>
+    <string name="google_storage_bucket" translatable="false">eticket-57bc7.appspot.com</string>
+    <string name="project_id" translatable="false">eticket-57bc7</string>
+</resources>
