@@ -1,3 +1,5 @@
+// Importing all the necessary packages
+
 import 'package:eticket/state/userState.dart';
 import 'package:eticket/views/UserHome.dart';
 import 'package:eticket/views/splash_screen.dart';
